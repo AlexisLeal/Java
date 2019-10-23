@@ -1,0 +1,15 @@
++ Objeto
++ Atributo
++ Metodo
++ clase
++ Instancia 
++ Abstrancion
++ Encapsulamiento
++ Herencia
++ Poliformismo
++ Sobrecarga
++ Metodo constructor
++ this.
++ Parametros y argumentos(Funciones)
++ Settes y Gettes
++ Atributos y Metodos ESTATICOS 
