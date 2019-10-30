@@ -72,7 +72,7 @@ class LaminaMarcoCliente extends JPanel{
                 //System.out.println(campo1.getText()); prueba
                 //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
                     Socket misocket = new Socket("10.100.225.137",9999);//Creamo el puente virtual que va del cliente al servidor 
-                    //Creamos  un flujo de datos 
+                    //Creamos  un flujo de datos La ip se debe cambiar 
                     DataOutputStream flujo_salida = new DataOutputStream(misocket.getOutputStream());
             
                     flujo_salida.writeUTF(campo1.getText());
