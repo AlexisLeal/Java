@@ -15,9 +15,11 @@ PaqueteEnvio paqueteRecibido;
 paqueteRecibido=(PaqueteEnvio) flujoentrada.readObject(); //es igual a paqueteRecibido=flujoentrada.readObject();
 
 
-public final int suma(int a, int b){ //el final es que ya no se puede heredar 
+public final int suma(int a, int b){ //el final en el metodo es cuando heredes no creas otro metodo con el mismo nombre 
             return a+b;
 }
+
+//El final en las clases es para que ya no heredes 
 
 
 
